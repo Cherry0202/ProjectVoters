@@ -1,2 +1,2 @@
-# ProjectVoters
+# Voters
 Engineer Evaluation System
