@@ -13,7 +13,7 @@ func main() {
 	log.Println("start")
 
 	// 構造体へconfigの結果を設定
-	c, err := config.Read("config.json")
+	c, err := config.Read("conf/config.json")
 	if err != nil {
 		log.Println(err)
 		os.Exit(1)
