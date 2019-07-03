@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2 {
+    color: initial;
+    text-shadow: initial;
+    font-weight: initial;
+}
+
+/* nav css */
+.nav_wrapper  {
+    border-bottom: 1px solid #000000;
+    /*background-color: #D8F2FC;*/
+}
+
+#nav {
+    list-style: none;
+    display: flex;
+    height: 66px;
+    /*background-color: azure;*/
+    width: 100vw;
+}
+
+#nav li  {
+    text-align: center;
+    height: 66px;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+.nav-logo {
+    /*background-color: lightblue;*/
+    width: 100px;
+    text-align: center;
+    height: 66px;
+    margin-left: 15px;
+    /*上下中央ぞろえ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 97px;
+}
+
+.nav-trend {
+    /*background-color: gray;*/
+    width: 100px;
+    text-align: center;
+    height: 66px;
+
+    /*上下中央ぞろえ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-event {
+    /*background-color: lightcoral;*/
+    width: 100px;
+    text-align: center;
+    height: 66px;
+
+    /*上下中央ぞろえ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-dash_bord {
+    /*background-color: lightgoldenrodyellow;*/
+    width: 100px;
+    text-align: center;
+    height: 66px;
+
+    /*上下中央ぞろえ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-contact {
+    /*background-color: lightgreen;*/
+    width: 100px;
+    text-align: center;
+    height: 66px;
+
+    /*上下中央ぞろえ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-blank {
+    width: 745px;
+    /*background-color: #ffffff;*/
+}
+
+.nav-search {
+    /*background-color: lightcoral;*/
+    width: 60px;
+    text-align: center;
+    height: 66px;
+
+    /*上下中央ぞろえ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-notification {
+    /*background-color: lightgoldenrodyellow;*/
+    width: 60px;
+    text-align: center;
+    height: 66px;
+
+    /*上下中央ぞろえ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-my_page {
+    /*background-color: lightgreen;*/
+    width: 60px;
+    text-align: center;
+    height: 66px;
+    margin-right: 15px;
+
+
+    /*上下中央ぞろえ*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-user {
+    height: 16px;
+}
+
+/* nav css end */
+
+/* main */
+
+.event_header_wrapper {
+    background-color: lightpink;
+
+    width: 100%;
+    height: 115px;
+
+/* 揃え */
+    display: flex;
+    align-items: center;
+}
+.event_main_wrapper {
+    background-color: lightgrey;
+
+    width: 100%;
+    min-height: 590px;
+}
+
+.event_header {
+    padding-left: 266px;
+}
+
+.event_main_image_wrapper{
+    background-color: lightseagreen;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.event_main_image {
+    width: 900px;
+}
+
+.sub-event_wrapper {
+    background-color: lightsalmon;
+    width: 100%;
+    min-height: 201px;
+}
+/* main end */
+
+/* footer */
+
+.footer_wrapper {
+    border-top: 1px solid #000000;
+    height: 46px;
+    /*background-color: lightgrey;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy_light {
+    font-size: 10px;
+    font-family: "Hiragino Kaku Gothic Pro", sans-serif;
+}
+/* footer end  */
