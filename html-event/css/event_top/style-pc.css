@@ -188,6 +188,13 @@ h1,h2 {
     background-color: lightsalmon;
     width: 100%;
     min-height: 201px;
+
+    display: inline-block;
+    text-align: center;
+}
+
+.sub_event_image {
+    width: 448px;
 }
 /* main end */
 
