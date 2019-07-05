@@ -78,8 +78,6 @@ h1,h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background-color: lightyellow;
 }
 
 .event_title {
