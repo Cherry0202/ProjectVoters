@@ -5,7 +5,6 @@
 
 h1,h2 {
     color: initial;
-    /*font-size: initial;*/
     text-shadow: initial;
     font-weight: initial;
 }
@@ -13,14 +12,12 @@ h1,h2 {
 /* nav css */
 .nav_wrapper  {
     border-bottom: 1px solid #000000;
-    /*background-color: #D8F2FC;*/
 }
 
 #nav {
     list-style: none;
     display: flex;
     height: 66px;
-    /*background-color: azure;*/
     width: 100vw;
     align-items: center;
 }
@@ -31,12 +28,10 @@ h1,h2 {
     font-size: 10px;
     font-weight: bold;
     font-family: "Hiragino Kaku Gothic Pro", sans-serif;
-    /*width: 100px;*/
     width: 100vw;
 }
 
 .nav-logo {
-    /*background-color: lightblue;*/
     width: 100px;
     text-align: center;
     height: 66px;
@@ -78,29 +73,29 @@ h1,h2 {
 }
 
 .contents-event_title {
-    /*background-color: lightseagreen;*/
-
-    width: 100vw;
-    height: 135px;
-
+    width: 100%;
+    height: 115px;
     display: flex;
-    /*justify-content: center;*/
     align-items: center;
+    justify-content: center;
+
+    background-color: lightyellow;
 }
 
 .event_title {
-    padding-left: 200px;
+    display: flex;
     font-size: 53px;
-    /*color: #00ff00;*/
     font-family: "Hiragino Kaku Gothic Pro", sans-serif;
     font-weight: 100;
+    width: 1041px;
 }
 
 .event_detail_title {
-    padding-left: 200px;
+    display: flex;
     font-size: 33px;
-    font-family: "Hiragino Kaku Gothic", sans-serif;
+    font-family: "Hiragino Kaku Gothic Pro", sans-serif;
     font-weight: 100;
+    width: 1041px;
 }
 
 .event_image_wrap {
@@ -136,7 +131,6 @@ h1,h2 {
 .footer_wrapper {
     border-top: 1px solid #000000;
     height: 46px;
-    /*background-color: lightgrey;*/
 
     display: flex;
     justify-content: center;
