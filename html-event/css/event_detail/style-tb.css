@@ -66,6 +66,35 @@ h1,h2 {
 .nav-awesome {
     margin-right: 30px;
 }
+
+/* nav sp */
+.sp_nav_wrapper {
+    width: 100vw;
+    height: 65px;
+    /*background-color: lightgrey;*/
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.sp-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /*background-color: azure;*/
+    width: 284px;
+    align-items: center;
+}
+
+.sp-nav li a {
+    text-decoration: none;
+}
+
+.sp-nav-logo {
+    width: 96px;
+}
+/* nav sp 終了*/
 /* nav css end */
 
 /* content  css */
