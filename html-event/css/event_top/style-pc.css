@@ -135,7 +135,7 @@ h1,h2 {
 /* footer */
 
 .footer_wrapper {
-    border-top: 1px solid #000000;
+    /*border-top: 1px dashed gray;*/
     height: 46px;
     /*background-color: lightgrey;*/
 
